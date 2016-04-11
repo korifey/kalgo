@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gcj/gcj.iml" filepath="$PROJECT_DIR$/gcj/gcj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kalgo.iml" filepath="$PROJECT_DIR$/kalgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+    </modules>
+  </component>
+</project>
