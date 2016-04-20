@@ -10,5 +10,3 @@ inline fun Int.digits(action: (Int) -> Unit) {
         n /= 10
     }
 }
-
-
