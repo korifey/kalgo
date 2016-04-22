@@ -1,4 +1,4 @@
-//package org.korifey.kalgo.codeforces.edu15;
+package org.korifey.kalgo.codeforces.edu15;
 
 import java.util.Arrays;
 import java.util.Scanner;
