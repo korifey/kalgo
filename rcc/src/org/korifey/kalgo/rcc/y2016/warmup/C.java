@@ -1,4 +1,4 @@
-//package org.korifey.kalgo.rcc.y2016.warmup;
+package org.korifey.kalgo.rcc.y2016.warmup;
 
 import java.io.BufferedReader;
 import java.io.IOException;
