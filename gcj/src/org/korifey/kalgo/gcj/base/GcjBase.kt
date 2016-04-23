@@ -76,3 +76,16 @@ abstract class GcjBase {
     }
 }
 
+fun Scanner.nextIntArray(n: Int) : IntArray {
+    var res = IntArray(n)
+    for (i in 0..n-1) res[i] = nextInt()
+    return res
+}
+
+fun Scanner.nextIntArray() : IntArray {
+    val scanner = Scanner(next())
+    var res = ArrayList<Int>()
+    while (scanner.hasNextInt()) res.add(scanner.nextInt())
+    return res.toIntArray()
+}
+
