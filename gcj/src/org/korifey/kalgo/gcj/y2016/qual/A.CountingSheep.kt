@@ -1,7 +1,7 @@
 package org.korifey.kalgo.gcj.y2016.qual
 
 import org.korifey.kalgo.gcj.base.GcjBase
-import org.korifey.kalgo.util.digits
+import org.korifey.kalgo.util.digitsFromLoToHi
 import java.io.PrintStream
 import java.util.*
 
@@ -18,7 +18,7 @@ internal class A : GcjBase() {
             var cur = 0;
             while (countdown > 0) {
                 cur += n
-                cur.digits { if (!flag[it]) {
+                cur.digitsFromLoToHi().forEach { if (!flag[it]) {
                     flag[it] = true
                     countdown --;
                 }}

@@ -4,7 +4,7 @@ package org.korifey.kalgo.gcj.y2016.round1a
 
 import org.korifey.kalgo.gcj.base.GcjBase
 import org.korifey.kalgo.gcj.base.nextIntArray
-import org.korifey.kalgo.util.digits
+import org.korifey.kalgo.util.digitsFromLoToHi
 import java.io.PrintStream
 import java.util.*
 
