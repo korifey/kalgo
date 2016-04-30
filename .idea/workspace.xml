@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round349div2/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round349div2/B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round349div2/C.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algo.iws" />
@@ -993,7 +990,8 @@
     <MESSAGE value="rcc 2016 warmup" />
     <MESSAGE value="&#10;" />
     <MESSAGE value="&#10;++" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;++" />
+    <MESSAGE value="codeforces 349 div2" />
+    <option name="LAST_COMMIT_MESSAGE" value="codeforces 349 div2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
