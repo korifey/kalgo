@@ -42,28 +42,19 @@ internal class A : GcjBase() {
             sum ++
         }
 
-        val res = LinkedList<Int>()
-        res.add(0)
-
-
-        fun rec() :Boolean {
-            val prev = res.last
-            if (sum == 0) {
-                res.removeFirst()
-                out.print(res.joinToString (""))
-                return true
+        val res = IntArray(10)
+        val xx = arrayOf('Z' to 0, 'W' to 2, 'U' to 4, 'X' to 6, 'G' to 8, 'F' to 5, 'O' to 1, 'S' to 7, 'T' to 3, 'N' to 9)
+        for (pair in xx) {
+            val (letter, i) = pair
+            while (p[letter-'A'] > 0) {
+                res[i]++
+                sub(i)
             }
-            for (i in prev..9) {
-                if (sub(i)) {
-                    res.add(i)
-                    if (rec()) return true
-                    res.removeLast()
-                }
-                add(i)
-            }
-            return false
         }
-
-        require(rec()) {"must be true"}
+        require(sum == 0)
+        for (i in 0..9)
+        {
+            for (j in 1..res[i]) out.print(i)
+        }
     }
 }

@@ -7,54 +7,47 @@ import java.util.*
 internal class C : GcjBase() {
 
 
-    val a = arrayOf("ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE")
-    val p = IntArray(26)
-    var sum = 0
-    fun add(x: Int) {
-        val s = a[x]
-        s.forEach { c ->
-            p [c - 'A'] ++
-            sum++
-        }
-    }
-    fun sub(x: Int) : Boolean {
-        var res = true
-        val s = a[x]
-        s.forEach { c ->
-            if (--p [c - 'A'] < 0) res = false
-            sum --
-        }
-        return res
-    }
-
     override fun case(scanner: Scanner, out: PrintStream) {
-        var s = scanner.next()
-        p.fill(0)
-        sum = 0
-        s.forEach { c ->
-            p[c - 'A']++
-            sum ++
+        val n = scanner.nextInt()
+
+        val m1 = HashMap<String, Int>()
+        val m2 = HashMap<String, Int>()
+        var gen1 = 0
+        var gen2 = 0
+
+        val a = Array<Pair<Int, Int>>(n, {0 to 0})
+
+        (0..n-1).forEach { i ->
+            var s1 = scanner.next()
+            var s2 = scanner.next()
+
+            val x1 = m1.get(s1) ?: gen1++.apply { m1.put(s1, this)}
+            val x2 = m2.get(s2) ?: gen1++.apply { m2.put(s2, this)}
+            a[i] = x1 to x2
         }
 
+        var max = 0
+        cycle@for(binary in 1..((1 shl n) -1)) {
+            var x = 1
 
-        val res = LinkedList<Int>()
-        res.add(0)
-
-        cycle@while (true) {
-            val prev = res.last
-            if (sum == 0) {
-                res.removeFirst()
-                out.print(res.joinToString (""))
-                return
-            }
-            for (i in prev..9) {
-                if (sub(i)) {
-                    res.add(i)
-                    continue@cycle
+            val set = BooleanArray(50)
+            var fake = 0
+            (0..n-1).forEach { i->
+                if ((binary or x) == binary) {
+                    set[a[i].first] = true
+                    set[a[i].second] = true
+                } else {
+                    fake++
                 }
-                add(i)
-                res.removeLast()
+                x = x shl 1
             }
+
+            for (i in 0..n-1){
+                if (!set[a[i].first] || !set[a[i].second]) continue@cycle
+            }
+            max = Math.max(max,fake)
         }
+
+        out.print(max)
     }
 }
