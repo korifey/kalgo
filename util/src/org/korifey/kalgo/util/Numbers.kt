@@ -33,6 +33,41 @@ fun Long.digitsFromLoToHi(radix: Int = 10) : Sequence<Long> {
 fun Long.digitsFromHiToLo(radix: Int = 10) = digitsFromLoToHi(radix).asIterable().reversed()
 
 
+fun Long.isPrime() : Boolean {
+    assert (this >= 0)
+
+    if (this < 2) return false;
+
+    val i = 2;
+    while (i*i <= this) {
+        if (this % i == 0L) return false;
+    }
+    return true;
+}
+
+private fun eratosphen(n: Int): BooleanArray {
+    val res = BooleanArray(n + 1, { true })
+
+    res[0] = false
+    res[1] = false
+
+    var s = 2
+    while (s * s <= n) {
+        if (!res[s]) {
+            s++
+            continue
+        }
+        var i = s * s
+        while (i <= n) {
+            res[i] = false
+            i += s
+        }
+        s++
+    }
+    return res
+}
+
+
 fun main(args: Array<String>) {
     measureTimeMillis {
         var res = 0;
