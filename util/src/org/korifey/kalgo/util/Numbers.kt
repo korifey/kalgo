@@ -45,6 +45,7 @@ fun Long.isPrime() : Boolean {
     return true;
 }
 
+
 private fun eratosphen(n: Int): BooleanArray {
     val res = BooleanArray(n + 1, { true })
 
