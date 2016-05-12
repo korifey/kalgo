@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="codeforces 349 div2">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/file.template.settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/A.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/B.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java" />
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algo.iws" />
@@ -106,8 +102,8 @@
       <file leaf-file-name="C.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="e#670#671#0" expanded="true" />
                 <element signature="e#725#726#0" expanded="true" />
@@ -939,7 +935,8 @@
     <MESSAGE value="&#10;" />
     <MESSAGE value="&#10;++" />
     <MESSAGE value="codeforces 349 div2" />
-    <option name="LAST_COMMIT_MESSAGE" value="codeforces 349 div2" />
+    <MESSAGE value="codeforces 352 div2" />
+    <option name="LAST_COMMIT_MESSAGE" value="codeforces 352 div2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1373,8 +1370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="357">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="e#670#671#0" expanded="true" />
             <element signature="e#725#726#0" expanded="true" />
