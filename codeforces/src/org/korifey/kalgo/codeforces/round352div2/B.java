@@ -1,4 +1,4 @@
-//package org.korifey.kalgo.codeforces.round352div2;
+package org.korifey.kalgo.codeforces.round352div2;
 
 import java.io.*;
 import java.util.HashSet;
