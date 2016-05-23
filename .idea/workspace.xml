@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="">
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="roundD task">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/D_todo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/kotlin-runtime-sources.jar" afterPath="$PROJECT_DIR$/lib/kotlin-runtime-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/kotlin-runtime.jar" afterPath="$PROJECT_DIR$/lib/kotlin-runtime.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/A.java" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/A.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/B.java" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/B.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java" />
     </list>
     <ignored path="Algo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,18 +32,10 @@
       <file leaf-file-name="C.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rcc/src/org/korifey/kalgo/rcc/y2016/warmup/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="255">
               <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="class#MyScanner#0;class#C#0" expanded="false" />
-                <element signature="e#324#325#0" expanded="false" />
-                <element signature="e#405#406#0" expanded="false" />
-                <element signature="e#756#757#0" expanded="false" />
-                <element signature="e#811#812#0" expanded="false" />
-                <element signature="e#838#839#0" expanded="false" />
-                <element signature="e#891#892#0" expanded="false" />
-                <element signature="e#922#923#0" expanded="false" />
-                <element signature="e#979#980#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -55,14 +48,6 @@
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="class#MyScanner#0;class#B#0" expanded="false" />
-                <element signature="e#302#303#0" expanded="false" />
-                <element signature="e#383#384#0" expanded="false" />
-                <element signature="e#734#735#0" expanded="false" />
-                <element signature="e#789#790#0" expanded="false" />
-                <element signature="e#816#817#0" expanded="false" />
-                <element signature="e#869#870#0" expanded="false" />
-                <element signature="e#900#901#0" expanded="false" />
-                <element signature="e#957#958#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,23 +56,49 @@
       <file leaf-file-name="C.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round349div2/C.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="32" column="22" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#236#237#0" expanded="false" />
+                <element signature="e#317#318#0" expanded="false" />
+                <element signature="e#668#669#0" expanded="false" />
+                <element signature="e#723#724#0" expanded="false" />
+                <element signature="e#750#751#0" expanded="false" />
+                <element signature="e#803#804#0" expanded="false" />
+                <element signature="e#834#835#0" expanded="false" />
+                <element signature="e#891#892#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/A.java">
+      <file leaf-file-name="Test.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/src/org/korifey/kalgo/util/Test.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="527">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="D_todo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/D_todo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +107,18 @@
         <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/B.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#262#263#0" expanded="false" />
+                <element signature="e#343#344#0" expanded="false" />
+                <element signature="e#694#695#0" expanded="false" />
+                <element signature="e#749#750#0" expanded="false" />
+                <element signature="e#776#777#0" expanded="false" />
+                <element signature="e#829#830#0" expanded="false" />
+                <element signature="e#860#861#0" expanded="false" />
+                <element signature="e#917#918#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,12 +127,19 @@
         <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#236#237#0" expanded="false" />
+                <element signature="e#317#318#0" expanded="false" />
+                <element signature="e#668#669#0" expanded="false" />
+                <element signature="e#723#724#0" expanded="false" />
+                <element signature="e#750#751#0" expanded="false" />
+                <element signature="e#803#804#0" expanded="false" />
+                <element signature="e#834#835#0" expanded="false" />
+                <element signature="e#891#892#0" expanded="false" />
+                <element signature="e#1251#1252#0" expanded="false" />
+                <element signature="e#1327#1328#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,16 +150,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round347div2/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,9 +181,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="HTML File" />
+        <option value="Kotlin File" />
         <option value="Codeforces" />
       </list>
     </option>
@@ -218,6 +236,9 @@
         <option value="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java" />
         <option value="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/B.java" />
         <option value="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/A.java" />
+        <option value="$PROJECT_DIR$/util/src/org/korifey/kalgo/util/Test.kt" />
+        <option value="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/D.java" />
+        <option value="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/D_todo.java" />
       </list>
     </option>
   </component>
@@ -234,7 +255,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1176" />
@@ -283,7 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -309,11 +329,33 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kalgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kalgo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org.korifey.kalgo.util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Kalgo" />
@@ -364,14 +406,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.28448275" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -395,169 +440,7 @@
       <recent name="C:\work\Kalgo\gcj\src\org\korifey\kalgo\gcj\y2016\qual" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/qual/A.CountingSheep.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1a/B.RandAndFile.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/util/src/org/korifey/kalgo/util/Numbers.kt</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/copyright/profiles_settings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1a/A-large.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1a/A-small.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1a/A-test.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1a/A.TheLastWord.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A-large.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A-large.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A-small.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A-small.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A-small.out.bak</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A-test.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A-test.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/A.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/B-small.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/B-small.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/B-test.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/B-test.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/B.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/C-small.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/C-small.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/C-test.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/C-test.out</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1b/C.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/A-large.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/A-small.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/A-test.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/A.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/B-large.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/B-small.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/B-test.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/B.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/C-small.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/C-test.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/round1c/C.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/util/src/org/korifey/kalgo/util/Sets.kt</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
-  <component name="RunManager" selected="Application.C">
-    <configuration default="false" name="C (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="org.korifey.kalgo.codeforces.round349div2.C" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="codeforces" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.org.korifey.kalgo.util.TestKt">
     <configuration default="false" name="C (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="C" />
@@ -615,6 +498,19 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="codeforces" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="org.korifey.kalgo.util.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.korifey.kalgo.util.TestKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="util" />
       <envs />
       <method />
     </configuration>
@@ -810,19 +706,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.C (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Application.C (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.A" />
-      <item index="3" class="java.lang.String" itemvalue="Application.B" />
-      <item index="4" class="java.lang.String" itemvalue="Application.C" />
+      <item index="0" class="java.lang.String" itemvalue="Application.C (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.A" />
+      <item index="2" class="java.lang.String" itemvalue="Application.B" />
+      <item index="3" class="java.lang.String" itemvalue="Application.C" />
+      <item index="4" class="java.lang.String" itemvalue="Kotlin.org.korifey.kalgo.util.TestKt" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.C" />
-        <item index="1" class="java.lang.String" itemvalue="Application.B" />
-        <item index="2" class="java.lang.String" itemvalue="Application.A" />
-        <item index="3" class="java.lang.String" itemvalue="Application.C (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.C (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.org.korifey.kalgo.util.TestKt" />
+        <item index="1" class="java.lang.String" itemvalue="Application.C" />
+        <item index="2" class="java.lang.String" itemvalue="Application.B" />
+        <item index="3" class="java.lang.String" itemvalue="Application.A" />
+        <item index="4" class="java.lang.String" itemvalue="Application.C (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -893,32 +789,32 @@
     <option name="totallyTimeSpent" value="10348000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23303835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24786781" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39823008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23303835" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39823008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -939,7 +835,8 @@
     <MESSAGE value="&#10;++" />
     <MESSAGE value="codeforces 349 div2" />
     <MESSAGE value="codeforces 352 div2" />
-    <option name="LAST_COMMIT_MESSAGE" value="codeforces 352 div2" />
+    <MESSAGE value="++" />
+    <option name="LAST_COMMIT_MESSAGE" value="++" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -994,20 +891,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-runtime-sources.jar!/kotlin/text/Strings.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="172" column="18" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/qual/C-small.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gcj/src/org/korifey/kalgo/gcj/y2016/qual/C-generated.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1136,7 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,10 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35700">
           <caret line="2181" column="17" selection-start-line="2181" selection-start-column="17" selection-end-line="2181" selection-end-column="17" />
-          <folding>
-            <element signature="e#82388#82389#0" expanded="false" />
-            <element signature="e#82433#82434#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,7 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,9 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,7 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,18 +1146,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rcc/src/org/korifey/kalgo/rcc/y2016/warmup/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="255">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="class#MyScanner#0;class#C#0" expanded="false" />
-            <element signature="e#324#325#0" expanded="false" />
-            <element signature="e#405#406#0" expanded="false" />
-            <element signature="e#756#757#0" expanded="false" />
-            <element signature="e#811#812#0" expanded="false" />
-            <element signature="e#838#839#0" expanded="false" />
-            <element signature="e#891#892#0" expanded="false" />
-            <element signature="e#922#923#0" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1299,14 +1160,6 @@
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="class#MyScanner#0;class#B#0" expanded="false" />
-            <element signature="e#302#303#0" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#816#817#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#900#901#0" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1321,47 +1174,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round349div2/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/abcd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/aaa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/И.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/abcd.html" />
+    <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/aaa.html" />
+    <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/И.java" />
     <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1327#1328#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1369,18 +1206,52 @@
     <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/B.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#262#263#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/src/org/korifey/kalgo/util/Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/round352div2/D_todo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,7 +1264,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28448275" />
               </list>
             </option>
           </splitter-proportions>
@@ -1404,7 +1275,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28448275" />
               </list>
             </option>
           </splitter-proportions>
@@ -1416,7 +1287,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28448275" />
               </list>
             </option>
           </splitter-proportions>
@@ -1440,7 +1311,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28448275" />
               </list>
             </option>
           </splitter-proportions>
