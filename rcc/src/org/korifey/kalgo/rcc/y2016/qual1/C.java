@@ -1,4 +1,4 @@
-package org.korifey.kalgo.rcc.y2016.qual;
+package org.korifey.kalgo.rcc.y2016.qual1;
 
 
 import java.util.Scanner;

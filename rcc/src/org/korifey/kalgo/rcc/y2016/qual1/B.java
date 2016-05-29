@@ -1,10 +1,9 @@
-package org.korifey.kalgo.rcc.y2016.qual;
+package org.korifey.kalgo.rcc.y2016.qual1;
 
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class B {
