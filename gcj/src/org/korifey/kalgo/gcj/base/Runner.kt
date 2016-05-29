@@ -4,7 +4,7 @@ import org.junit.Test
 
 
 class Runner {
-    val problem : GcjBase = org.korifey.kalgo.gcj.y2016.round1a.B()
+    val problem : GcjBase = org.korifey.kalgo.gcj.y2016.round2.B()
 
     @Test
     fun doGenerate() {
