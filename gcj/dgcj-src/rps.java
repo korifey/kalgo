@@ -1,6 +1,6 @@
 // Sample input 1, in Java.
-public class rps1 {
-  public rps1() {
+public class rps {
+  public rps() {
   }
 
   public static long GetN() {
