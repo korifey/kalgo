@@ -1,10 +1,11 @@
 package org.korifey.kalgo.gcj.base
 
 import org.junit.Test
+import org.korifey.kalgo.facebook.y2017.qual.ProgressPie
 
 
 class Runner {
-    val problem : GcjBase = org.korifey.kalgo.gcj.y2016.round2.B()
+    val problem : GcjBase = ProgressPie()
 
     @Test
     fun doGenerate() {
