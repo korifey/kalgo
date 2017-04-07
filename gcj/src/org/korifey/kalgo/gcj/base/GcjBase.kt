@@ -57,7 +57,7 @@ abstract class GcjBase {
                         if (verbose) println("Case $i: solved in ${caseTime} ms")
                     }
                 }
-                println("Total time: ${totalTime} ms")
+                println("Total time: $totalTime ms")
             }
         }
     }

@@ -5,7 +5,7 @@ import java.util.*
 
 val r = Random()
 fun main(args: Array<String>) {
-    val n = 1000000;
+    val n = 1000000
 
     val x1 = intArrayOf(0, 1, 0, 1)
     val x2 = intArrayOf(0, 1, 1, 0)
@@ -19,12 +19,12 @@ fun main(args: Array<String>) {
         winRate += win(x1, x2)
     }
 
-    println( "winRate = %.0f%%".format(winRate / n.toDouble() * 100) );
-    println( "exp1 = %.0f".format(exp1 / n.toDouble()) );
-    println( "exp2 = %.0f".format(exp2 / n.toDouble()) );
+    println( "winRate = %.0f%%".format(winRate / n.toDouble() * 100) )
+    println( "exp1 = %.0f".format(exp1 / n.toDouble()) )
+    println( "exp2 = %.0f".format(exp2 / n.toDouble()) )
 }
 
-inline fun expectation(x: IntArray) : Int {
+fun expectation(x: IntArray) : Int {
     val a = IntArray(x.size, {r.nextInt(2)})
 
     var step = 0
@@ -37,7 +37,7 @@ inline fun expectation(x: IntArray) : Int {
 
 }
 
-inline fun win(x1 : IntArray, x2: IntArray) : Int {
+fun win(x1 : IntArray, x2: IntArray) : Int {
     val a = IntArray(x1.size, {r.nextInt(2)})
 
     while (true) {
