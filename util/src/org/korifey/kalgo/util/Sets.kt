@@ -24,7 +24,7 @@ class BoolSet (trueCount: Int, private val array: BooleanArray) : Iterable<Int> 
         get
         private set
 
-    operator fun get(idx: Int) = array[idx]
+    operator fun get(idx: Int) = idx in 0..count-1 && array[idx]
     operator fun set(idx: Int, value: Boolean) {
         if (value != array[idx]) {
             count += if (value) 1 else -1
@@ -32,4 +32,7 @@ class BoolSet (trueCount: Int, private val array: BooleanArray) : Iterable<Int> 
         }
     }
 
+    fun getInternalBooleanArray() = array
 }
+
+fun BooleanArray.toBoolSet() = BoolSet.fromArray(this)

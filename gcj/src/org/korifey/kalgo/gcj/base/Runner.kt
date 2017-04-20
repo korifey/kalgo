@@ -1,12 +1,11 @@
 package org.korifey.kalgo.gcj.base
 
 import org.junit.Test
-import org.korifey.kalgo.facebook.y2017.round1.ManicMoving
-import org.korifey.kalgo.facebook.y2017.round1.PieProgress
+import org.korifey.kalgo.gcj.y2017.qual.*
 
 
 class Runner {
-    val problem : GcjBase = ManicMoving()
+    val problem : GcjBase = C()
 
     @Test
     fun doGenerate() {
