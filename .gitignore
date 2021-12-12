@@ -3,6 +3,9 @@
 out/*
 lib/*
 input.txt
+kalgo/.idea/*.xml
+**/*.iml
+*.iml
 *.iml
 /adventOfCode-2021/**/.project
 /adventOfCode-2021/**/.settings
