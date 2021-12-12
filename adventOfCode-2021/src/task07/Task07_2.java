@@ -1,3 +1,5 @@
+package task07;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -7,7 +9,7 @@ import java.util.StringTokenizer;
 
 public class Task07_2 {
 	public static void main(String[] args) {
-		try (Scanner sc = new Scanner(new File("input07_2.txt"))) {
+		try (Scanner sc = new Scanner(new File("resources/input07_2.txt"))) {
 			Task07_2 task = new Task07_2(sc.nextLine());
 			System.out.println(task.calcFuelForBestPositionForCrabs());
 //			System.out.println(sc.nextLine());
