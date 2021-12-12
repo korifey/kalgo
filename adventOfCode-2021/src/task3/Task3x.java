@@ -9,7 +9,7 @@ public class Task3x {
 
     public static void main(String[] args) throws Exception {
         ArrayList<String> source = new ArrayList<String>();
-        BufferedReader inp = new BufferedReader(new FileReader("adventOfCode-2021/resources/input3x.txt"));
+        BufferedReader inp = new BufferedReader(new FileReader("adventOfCode-2021/resources/input3.txt"));
         String s;
         int razr = 0;
         long val;
@@ -46,7 +46,7 @@ public class Task3x {
             co |= (co2.get(0).charAt(razr-1-i)-'0')<<i;
         }
 
-        System.out.println("res="+(oxy*co));
+        System.out.println((oxy*co));
 
     }
 
