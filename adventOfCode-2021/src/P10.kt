@@ -1,22 +1,18 @@
 
 fun main(args: Array<String>) {
-    val res = input.readLines().map { completeionScore(it) }.filter { it >= 0 }
-
-    if (res.size % 2 != 1) {
-        error("Not odd size of line: ${res.size}")
-    }
-    println(res.sorted()[res.size/2])
+    val res = input.readLines().sumBy { invalidCharScore(it) }
+    println(res)
 }
 
 data class Block(val start: Char, val end: Char, val score: Int)
 
-fun completeionScore(s: String): Long {
+fun invalidCharScore(s: String): Int {
     val stack = mutableListOf<Char>()
     val blocks = listOf(
-        Block('(', ')', 1),
-        Block('[', ']', 2),
-        Block('{', '}', 3),
-        Block('<', '>', 4)
+        Block('(', ')', 3),
+        Block('[', ']', 57),
+        Block('{', '}', 1197),
+        Block('<', '>', 25137)
     )
     for (c in s) {
         if (blocks.any { it.start == c }) {
@@ -26,11 +22,10 @@ fun completeionScore(s: String): Long {
         val b = blocks.singleOrNull { it.end == c } ?: error ("illegal char $c in string $s")
 
         if (stack.isEmpty() || stack.last() != b.start)
-            return -1
+            return b.score
 
         stack.removeAt(stack.lastIndex)
     }
 
-
-    return stack.reversed().fold(0L) {acc, c -> acc*5 + blocks.single { c == it.start }.score}
+    return 0
 }
