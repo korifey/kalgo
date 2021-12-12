@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" filepath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeforces/codeforces.iml" filepath="$PROJECT_DIR$/codeforces/codeforces.iml" />
       <module fileurl="file://$PROJECT_DIR$/gcj/gcj.iml" filepath="$PROJECT_DIR$/gcj/gcj.iml" />
       <module fileurl="file://$PROJECT_DIR$/interview/interview.iml" filepath="$PROJECT_DIR$/interview/interview.iml" />

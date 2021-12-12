@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="codeforces number theory problems">
-      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/D.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/E.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/F.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/F1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/interview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/src/InsertIntoRing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/org/korifey/kalgo/test/Test.kt" afterDir="false" />
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="Interview question">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/A.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/B.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/C.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/D.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +30,11 @@
       <list>
         <option value="HTML File" />
         <option value="Codeforces" />
-        <option value="Kotlin Class" />
         <option value="XSLT Stylesheet" />
         <option value="CodeforcesKotlin" />
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -57,6 +49,18 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/F1.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/F.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/C.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/D.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/E.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/D.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/interview/src/InsertIntoRing.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="h6gww6f1" />
   </component>
   <component name="ProjectId" id="1ej0gBvvdhsHKdBqJLMZE61GpYj" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -81,6 +85,8 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -91,10 +97,11 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.28448275" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -105,6 +112,7 @@
       <recent name="$PROJECT_DIR$/util/src/org/korifey/kalgo/geom" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\kalgo" />
       <recent name="C:\work\Kalgo\gcj\src\org\korifey\kalgo\gcj\y2016\qual" />
       <recent name="C:\work\Kalgo\gcj" />
     </key>
@@ -120,7 +128,7 @@
       <recent name="org.korifey.kalgo.codeforces.round347div2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Node">
+  <component name="RunManager" selected="Kotlin.P1Kt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -241,13 +249,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DKt" />
-      <module name="codeforces" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EKt" />
       <module name="codeforces" />
@@ -265,6 +266,13 @@
     <configuration name="FKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FKt" />
       <module name="codeforces" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P1Kt" />
+      <module name="adventOfCode-2021" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -304,13 +312,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.Node" />
-      <item itemvalue="Kotlin.DKt" />
       <item itemvalue="Kotlin.EKt" />
       <item itemvalue="Kotlin.F1Kt" />
       <item itemvalue="Kotlin.FKt" />
+      <item itemvalue="Kotlin.P1Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.P1Kt" />
         <item itemvalue="Application.Node" />
       </list>
     </recent_temporary>
@@ -349,6 +358,11 @@
       <workItem from="1605518628706" duration="63000" />
       <workItem from="1633616957590" duration="15517000" />
       <workItem from="1634761507135" duration="3944000" />
+      <workItem from="1638621831498" duration="2170000" />
+      <workItem from="1638633275351" duration="233000" />
+      <workItem from="1638633543050" duration="2705000" />
+      <workItem from="1638963764402" duration="5937000" />
+      <workItem from="1639316327967" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="codeforces347div2">
       <created>1461407866292</created>
@@ -392,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596101550580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="kotlin heroes 8">
+      <created>1638624141125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638624141125</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Interview question">
+      <created>1638624739846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638624739846</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -466,7 +494,9 @@
     <MESSAGE value="codeforces number theory problems" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="raining water" />
-    <option name="LAST_COMMIT_MESSAGE" value="raining water" />
+    <MESSAGE value="kotlin heroes 8" />
+    <MESSAGE value="Interview question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interview question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
