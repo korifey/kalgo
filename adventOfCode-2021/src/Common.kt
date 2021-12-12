@@ -5,5 +5,9 @@ val input : File get() {
     val classname = trace[trace.lastIndex].className
     val fileSuffix = classname.substring(1 /*P*/, classname.length-2 /*Kt*/)
 
-    return File("adventOfCode-2021/resources/input$fileSuffix.txt")
+    val f = File("adventOfCode-2021/resources/input$fileSuffix.txt")
+    if (fileSuffix.endsWith("x") && !f.exists())
+        return File("adventOfCode-2021/resources/input${fileSuffix.removeSuffix("x")}.txt")
+    else
+        return f;
 }

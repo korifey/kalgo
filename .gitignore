@@ -4,3 +4,7 @@ out/*
 lib/*
 input.txt
 *.iml
+/adventOfCode-2021/**/.project
+/adventOfCode-2021/**/.settings
+/adventOfCode-2021/**/.classpath
+.project
