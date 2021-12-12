@@ -94,7 +94,7 @@ public class Task4 {
         return -1;
     }
 
-    
+
     static long calcres(Board b, int num) {
         long sum = 0;
         for (int line = 0; line < 5; line++) {
