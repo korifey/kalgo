@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class Task07_1 {
 	
 	public static void main(String[] args) {
-		try (Scanner sc = new Scanner(new File("resources/input07_1.txt"))) {
+		try (Scanner sc = new Scanner(new File("adventOfCode-2021/resources/input07_1.txt"))) {
 			Task07_1 task = new Task07_1(sc.nextLine());
 			System.out.println(task.calcFuelForBestPositionForCrabs());
 //			System.out.println(sc.nextLine());
