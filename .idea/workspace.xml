@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="Interview question">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="Init advent of code 2021">
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/resources/input1x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/Common.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P1x.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventOfCode-2021/src/P1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +31,9 @@
         <option value="Codeforces" />
         <option value="XSLT Stylesheet" />
         <option value="CodeforcesKotlin" />
-        <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -96,7 +95,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/adventOfCode-2021/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
@@ -105,11 +104,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\kalgo\adventOfCode-2021\resources" />
+      <recent name="C:\work\kalgo\adventOfCode-2021\src" />
       <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces\kotlinheroes8" />
       <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces" />
       <recent name="C:\work\kalgo\leetcode\src" />
-      <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces\kotlinheroes" />
-      <recent name="$PROJECT_DIR$/util/src/org/korifey/kalgo/geom" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\kalgo" />
@@ -249,13 +248,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EKt" />
-      <module name="codeforces" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="F1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="F1Kt" />
       <module name="codeforces" />
@@ -272,6 +264,13 @@
     </configuration>
     <configuration name="P1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P1Kt" />
+      <module name="adventOfCode-2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1xKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P1xKt" />
       <module name="adventOfCode-2021" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -312,14 +311,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Node" />
-      <item itemvalue="Kotlin.EKt" />
       <item itemvalue="Kotlin.F1Kt" />
       <item itemvalue="Kotlin.FKt" />
       <item itemvalue="Kotlin.P1Kt" />
+      <item itemvalue="Kotlin.P1xKt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.P1Kt" />
+        <item itemvalue="Kotlin.P1xKt" />
         <item itemvalue="Application.Node" />
       </list>
     </recent_temporary>
@@ -362,7 +362,7 @@
       <workItem from="1638633275351" duration="233000" />
       <workItem from="1638633543050" duration="2705000" />
       <workItem from="1638963764402" duration="5937000" />
-      <workItem from="1639316327967" duration="1672000" />
+      <workItem from="1639316327967" duration="2919000" />
     </task>
     <task id="LOCAL-00001" summary="codeforces347div2">
       <created>1461407866292</created>
@@ -420,7 +420,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638624739846</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gitignore">
+      <created>1639318038117</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639318038117</updated>
+    </task>
+    <task id="LOCAL-00010" summary="kotlinheroes8">
+      <created>1639318052925</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639318052925</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Init advent of code 2021">
+      <created>1639318214559</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1639318214559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -496,7 +517,10 @@
     <MESSAGE value="raining water" />
     <MESSAGE value="kotlin heroes 8" />
     <MESSAGE value="Interview question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interview question" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="kotlinheroes8" />
+    <MESSAGE value="Init advent of code 2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init advent of code 2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,6 +618,9 @@
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="getClass()" language="kotlin" />
+      </configuration>
       <configuration name="Application">
         <watch expression="to(s.charAt(i), s.charAt(i+1))" language="JAVA" custom="" />
         <watch expression="n.toString()" language="JAVA" />

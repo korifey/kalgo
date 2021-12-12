@@ -1,4 +1,3 @@
-import java.io.File
 
 fun main(args: Array<String>) {
     val a = input.readLines().map { it.toInt() }
