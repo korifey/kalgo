@@ -12,7 +12,7 @@ import java.util.stream.IntStream;
 
 public class Task08_2 {
   public static void main(String[] args) {
-    try (Scanner sc = new Scanner(new File("resources/input08_1.txt"))) {
+    try (Scanner sc = new Scanner(new File("adventOfCode-2021/resources/input08_1.txt"))) {
       Task08_2 task = new Task08_2();
 
       while (sc.hasNext()) {

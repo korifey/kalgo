@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 
 public class Task08_1 {
   public static void main(String[] args) {
-    try (Scanner sc = new Scanner(new File("resources/input08_1.txt"))) {
+    try (Scanner sc = new Scanner(new File("adventOfCode-2021/resources/input08_1.txt"))) {
       Task08_1 task = new Task08_1();
 
       while (sc.hasNext()) {
