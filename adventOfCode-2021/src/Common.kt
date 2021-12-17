@@ -11,3 +11,6 @@ val input : File get() {
     else
         return f;
 }
+
+fun Int.cnd(condition: Boolean) = if (condition) this else 0
+fun cnd(condition: Boolean, ifTrue: () -> String) : String = if (condition) ifTrue() else ""
