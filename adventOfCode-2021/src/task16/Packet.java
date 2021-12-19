@@ -5,7 +5,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicLong;
 import static task16.MagicNumbers.*;
 
 class Packet implements Iterable<Packet> {
@@ -47,15 +46,6 @@ class Packet implements Iterable<Packet> {
     }
   }
   
-  static final int SUM = 0;
-  static final int PRODUCT = 1;
-  static final int MINIMUM = 2;
-  static final int MAXIMUM = 3;
-  static final int LITERAL = 4;
-  static final int GREATER_THAN = 5;
-  static final int LESS_THAN = 6;
-  static final int EQUAL_TO = 7;
-  
   public long eval() {
     if ((typeId) == LITERAL)
       return value.get();
@@ -74,10 +64,8 @@ class Packet implements Iterable<Packet> {
         }
         return product;
       case MINIMUM:
-        long min = Long.MAX_VALUE;
         return subpackets.stream().map(Packet::eval).reduce(Long::min).get();
       case MAXIMUM:
-        long max = Long.MIN_VALUE;
         return subpackets.stream().map(Packet::eval).reduce(Long::max).get();
       case GREATER_THAN:
         Iterator<Packet> it1 = iterator();

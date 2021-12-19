@@ -2,12 +2,7 @@ package task16;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import java.util.StringTokenizer;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 public class Task16_1 {
   private static final Scanner createScanner(String... fileNames) {
@@ -42,9 +37,6 @@ public class Task16_1 {
         System.out.println(p.iterator().next().sumVersions());
         System.out.println();
       }
-
-      //      task.print();
-//      System.out.println(task.calcUniqueNumbersInInput());
     }
     
   }
