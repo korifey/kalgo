@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="Init advent of code 2021">
-      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/task3/Task3x.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="task 15 formatted">
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/resources/input18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P18.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P18x.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P19.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -47,13 +49,23 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/E.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/C.kt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/F1.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/D.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/D.kt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/interview/src/InsertIntoRing.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/F.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/src/P11x.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/src/P10x.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/src/P10.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/src/P9.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/src/task07/Task07_1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/resources/input9.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/C.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/src/task07/Task07_2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/resources/input07_0.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/resources/input07_1.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/D.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes8/E.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/kotlinheroes/D.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/adventOfCode-2021/src/P11.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/interview/src/InsertIntoRing.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="h6gww6f1" />
@@ -94,20 +106,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/adventOfCode-2021/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/adventOfCode-2021/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.28448275" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\work\kalgo\adventOfCode-2021\resources" />
       <recent name="C:\work\kalgo\adventOfCode-2021\src" />
+      <recent name="C:\work\kalgo\adventOfCode-2021\src\p18" />
+      <recent name="C:\work\kalgo\adventOfCode-2021\resources" />
       <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces\kotlinheroes8" />
       <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces" />
-      <recent name="C:\work\kalgo\leetcode\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\kalgo" />
@@ -117,18 +129,21 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="org.korifey.kalgo.gcj.base" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="org.korifey.kalgo.geom.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="task4" />
       <recent name="task3" />
       <recent name="task2" />
       <recent name="org.korifey.kalgo.codeforces.round349div2" />
       <recent name="org.korifey.kalgo.rcc.y2016.warmup" />
-      <recent name="org.korifey.kalgo.codeforces.round347div2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3x">
+  <component name="RunManager" selected="Kotlin.P18Kt (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -218,6 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -228,77 +249,6 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task2.Task2" />
-      <module name="adventOfCode-2021" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task2x" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task2.Task2x" />
-      <module name="adventOfCode-2021" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.Task3" />
-      <module name="adventOfCode-2021" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3x" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task3.Task3x" />
-      <module name="adventOfCode-2021" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -306,8 +256,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P1Kt" />
+    <configuration name="P15Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P15Kt" />
+      <module name="adventOfCode-2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P15xKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P15xKt" />
+      <module name="adventOfCode-2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P18Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p18.P18Kt" />
+      <module name="adventOfCode-2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P18Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P18Kt" />
+      <module name="adventOfCode-2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P18xKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p18.P18xKt" />
       <module name="adventOfCode-2021" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,20 +315,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Task2" />
-      <item itemvalue="Application.Task2x" />
-      <item itemvalue="Application.Task3" />
-      <item itemvalue="Kotlin.P1Kt" />
-      <item itemvalue="Application.Task3x" />
+      <item itemvalue="Kotlin.P15Kt" />
+      <item itemvalue="Kotlin.P15xKt" />
+      <item itemvalue="Kotlin.P18Kt" />
+      <item itemvalue="Kotlin.P18Kt (1)" />
+      <item itemvalue="Kotlin.P18xKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3x" />
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2x" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Kotlin.P1Kt" />
+        <item itemvalue="Kotlin.P18Kt (1)" />
+        <item itemvalue="Kotlin.P18xKt" />
+        <item itemvalue="Kotlin.P18Kt" />
+        <item itemvalue="Kotlin.P15xKt" />
+        <item itemvalue="Kotlin.P15Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -393,6 +380,9 @@
       <workItem from="1638633543050" duration="2705000" />
       <workItem from="1638963764402" duration="5937000" />
       <workItem from="1639316327967" duration="2919000" />
+      <workItem from="1639599207665" duration="4194000" />
+      <workItem from="1639685553693" duration="3925000" />
+      <workItem from="1639924707019" duration="9251000" />
     </task>
     <task id="LOCAL-00001" summary="codeforces347div2">
       <created>1461407866292</created>
@@ -492,7 +482,63 @@
       <option name="project" value="LOCAL" />
       <updated>1639325035746</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="task12">
+      <created>1639331354601</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639331354601</updated>
+    </task>
+    <task id="LOCAL-00016" summary="task3 fixed">
+      <created>1639331376252</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639331376252</updated>
+    </task>
+    <task id="LOCAL-00017" summary="task 7 fixed">
+      <created>1639331586043</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639331586043</updated>
+    </task>
+    <task id="LOCAL-00018" summary="task 9">
+      <created>1639334543569</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639334543569</updated>
+    </task>
+    <task id="LOCAL-00019" summary="task 4x">
+      <created>1639339847930</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639339847930</updated>
+    </task>
+    <task id="LOCAL-00020" summary="task 13">
+      <created>1639656327521</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1639656327522</updated>
+    </task>
+    <task id="LOCAL-00021" summary="task 8 formatted">
+      <created>1639656360775</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1639656360775</updated>
+    </task>
+    <task id="LOCAL-00022" summary="task 15 formatted">
+      <created>1639731228000</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1639731228001</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -551,9 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="codeforces347div2" />
-    <MESSAGE value="rcc 2016 warmup" />
-    <MESSAGE value="&#10;" />
     <MESSAGE value="&#10;++" />
     <MESSAGE value="codeforces 349 div2" />
     <MESSAGE value="codeforces 352 div2" />
@@ -571,7 +614,15 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="kotlinheroes8" />
     <MESSAGE value="Init advent of code 2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init advent of code 2021" />
+    <MESSAGE value="task12" />
+    <MESSAGE value="task3 fixed" />
+    <MESSAGE value="task 7 fixed" />
+    <MESSAGE value="task 9" />
+    <MESSAGE value="task 4x" />
+    <MESSAGE value="task 13" />
+    <MESSAGE value="task 8 formatted" />
+    <MESSAGE value="task 15 formatted" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 15 formatted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,13 +721,17 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="getClass()" language="kotlin" />
+        <watch expression="nodes" language="kotlin" />
       </configuration>
       <configuration name="Application">
         <watch expression="to(s.charAt(i), s.charAt(i+1))" language="JAVA" custom="" />
         <watch expression="n.toString()" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
