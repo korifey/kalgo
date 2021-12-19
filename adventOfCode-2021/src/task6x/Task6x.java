@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 
+
 public class Task6x {
 
     ArrayList<Integer>[] digits = new ArrayList[9];
