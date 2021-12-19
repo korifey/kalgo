@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Stream;
 import static task16.MagicNumbers.*;
 
 class Packet implements Iterable<Packet> {
@@ -25,72 +26,70 @@ class Packet implements Iterable<Packet> {
   public void print() {
     print(0, "");
   }
-  
+
   private void print(int depth, String ident) {
-    System.out.printf("%s%d: [ver:%d, type:%d, lenBit:%d, val:%d]%n", ident, depth, version, typeId, lengthTypeId.orElse(-1), value.orElse(-1L));
+    System.out.printf("%s%d: [ver:%d, type:%d, lenBit:%d, val:%d]%n", ident, depth, version, typeId,
+        lengthTypeId.orElse(-1), value.orElse(-1L));
     for (Packet sub : this) {
       sub.print(depth + 1, ident + "  ");
     }
   }
-  
+
   public int sumVersions() {
     AtomicInteger res = new AtomicInteger(0);
     doSumVersions(res);
     return res.get();
   }
-  
+
   private void doSumVersions(AtomicInteger acc) {
     acc.addAndGet(version);
     for (Packet sub : this) {
       sub.doSumVersions(acc);
     }
   }
-  
+
   public long eval() {
     if ((typeId) == LITERAL)
       return value.get();
-    
+
+    Stream<Long> stream = subpackets.stream().map(Packet::eval);
+
     switch (typeId) {
       case SUM:
-        long sum = 0;
-        for (Packet sub : this) {
-          sum += sub.eval();
-        }
-        return sum;
+        return stream.reduce(Long::sum).get();
       case PRODUCT:
-        long product = 1;
-        for (Packet sub : this) {
-          product *= sub.eval();
-        }
-        return product;
+        return stream.reduce((a, b) -> a * b).get();
       case MINIMUM:
-        return subpackets.stream().map(Packet::eval).reduce(Long::min).get();
+        return stream.reduce(Long::min).get();
       case MAXIMUM:
-        return subpackets.stream().map(Packet::eval).reduce(Long::max).get();
-      case GREATER_THAN:
-        Iterator<Packet> it1 = iterator();
-        Packet sub11 = it1.next();
-        Packet sub12 = it1.next();
-        return sub11.eval() > sub12.eval() ? 1L : 0;
-      case LESS_THAN:
-        Iterator<Packet> it2 = iterator();
-        Packet sub21 = it2.next();
-        Packet sub22 = it2.next();
-        return sub21.eval() < sub22.eval() ? 1L : 0;
-      case EQUAL_TO:
-        Iterator<Packet> it3 = iterator();
-        Packet sub31 = it3.next();
-        Packet sub32 = it3.next();
-        return sub31.eval() == sub32.eval() ? 1L : 0;
-        default:
-          return 0;
+        return stream.reduce(Long::max).get();
+      case GREATER_THAN: {
+        Iterator<Packet> it = iterator();
+        Packet a = it.next();
+        Packet b = it.next();
+        return a.eval() > b.eval() ? 1L : 0;
+      }
+      case LESS_THAN: {
+        Iterator<Packet> it = iterator();
+        Packet a = it.next();
+        Packet b = it.next();
+        return a.eval() < b.eval() ? 1L : 0;
+      }
+      case EQUAL_TO: {
+        Iterator<Packet> it = iterator();
+        Packet a = it.next();
+        Packet b = it.next();
+        return a.eval() == b.eval() ? 1L : 0;
+      }
+      default:
+        return 0;
     }
   }
-  
+
   public void addSubpacket(Packet p) {
     subpackets.add(p);
   }
-  
+
   public Iterator<Packet> iterator() {
     return subpackets.iterator();
   }
