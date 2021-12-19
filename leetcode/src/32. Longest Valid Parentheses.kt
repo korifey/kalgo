@@ -14,6 +14,6 @@ class Solution32 {
             }
         }
 
-        return a.max () ?: 0
+        return a.maxOrNull () ?: 0
     }
 }

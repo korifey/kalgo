@@ -10,7 +10,7 @@ import kotlin.comparisons.compareBy
 class VertexPolygon private constructor(val vertices: MutableList<V2>)  {
     companion object {
         fun fromVertices(vertices: List<V2>) : VertexPolygon {
-            val lbIndex = vertices.withIndex().minWith(compareBy({it.value.x}, {it.value.y})) ?.index ?: error("vertices are empty")
+            val lbIndex = vertices.withIndex().minWithOrNull(compareBy({it.value.x}, {it.value.y})) ?.index ?: error("vertices are empty")
             val n = vertices.size
             val fst  = vertices[lbIndex]
             val prev = vertices[(lbIndex - 1 + n) % n]

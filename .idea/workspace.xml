@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="task 15 formatted">
-      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/resources/input18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P18.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P18x.kt" afterDir="false" />
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="task 18">
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/resources/input19.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P19.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/org/korifey/kalgo/geom/V3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gcj/gcj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gcj/gcj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-reflect.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rcc/rcc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rcc/rcc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +114,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/adventOfCode-2021/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/adventOfCode-2021/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15527344" />
@@ -115,11 +123,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\kalgo\adventOfCode-2021\resources" />
+      <recent name="C:\work\kalgo\util\src\org\korifey\kalgo\geom" />
       <recent name="C:\work\kalgo\adventOfCode-2021\src" />
       <recent name="C:\work\kalgo\adventOfCode-2021\src\p18" />
-      <recent name="C:\work\kalgo\adventOfCode-2021\resources" />
       <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces\kotlinheroes8" />
-      <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\kalgo" />
@@ -143,7 +151,7 @@
       <recent name="org.korifey.kalgo.rcc.y2016.warmup" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.P18Kt (1)">
+  <component name="RunManager" selected="Kotlin.P19Kt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -256,13 +264,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P15Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P15Kt" />
-      <module name="adventOfCode-2021" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="P15xKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="P15xKt" />
       <module name="adventOfCode-2021" />
@@ -286,6 +287,13 @@
     </configuration>
     <configuration name="P18xKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p18.P18xKt" />
+      <module name="adventOfCode-2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P19Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p19.P19Kt" />
       <module name="adventOfCode-2021" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -325,19 +333,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.P15Kt" />
       <item itemvalue="Kotlin.P15xKt" />
       <item itemvalue="Kotlin.P18Kt" />
       <item itemvalue="Kotlin.P18Kt (1)" />
       <item itemvalue="Kotlin.P18xKt" />
+      <item itemvalue="Kotlin.P19Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.P19Kt" />
         <item itemvalue="Kotlin.P18Kt (1)" />
         <item itemvalue="Kotlin.P18xKt" />
         <item itemvalue="Kotlin.P18Kt" />
         <item itemvalue="Kotlin.P15xKt" />
-        <item itemvalue="Kotlin.P15Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +390,8 @@
       <workItem from="1639316327967" duration="2919000" />
       <workItem from="1639599207665" duration="4194000" />
       <workItem from="1639685553693" duration="3925000" />
-      <workItem from="1639924707019" duration="9251000" />
+      <workItem from="1639924707019" duration="11616000" />
+      <workItem from="1639938136674" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="codeforces347div2">
       <created>1461407866292</created>
@@ -538,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639731228001</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="task 18">
+      <created>1639935739494</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1639935739494</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -597,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;++" />
     <MESSAGE value="codeforces 349 div2" />
     <MESSAGE value="codeforces 352 div2" />
     <MESSAGE value="++" />
@@ -622,7 +637,8 @@
     <MESSAGE value="task 13" />
     <MESSAGE value="task 8 formatted" />
     <MESSAGE value="task 15 formatted" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 15 formatted" />
+    <MESSAGE value="task 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
