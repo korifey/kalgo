@@ -28,7 +28,7 @@ public class Task6 {
                 }
             }
             base.addAll(added);
-//            System.out.println(i+" done");
+            System.out.println(i+" done");
 //            System.out.println(i + ":\t" + base);
         }
         System.out.println(base.size());
