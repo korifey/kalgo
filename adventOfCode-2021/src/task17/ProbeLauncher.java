@@ -74,7 +74,7 @@ class ProbeLauncher {
   /**
    * (Task 2) Returns the number of distinct valid pairs (vx, vy). Call to {@link #findHighestY()} is required first.
    * 
-   * @return how many distinct combinations of (vx, vy) eventually lend the probe in target
+   * @return how many distinct combinations of (vx, vy) eventually land the probe in target
    * @see #findHighestY
    */
   public int getDistinct() {
