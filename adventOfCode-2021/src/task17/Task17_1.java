@@ -22,7 +22,6 @@ public class Task17_1 {
   public static void main(String[] args) {
     try (Scanner sc = createScanner("adventOfCode-2021/resources/input17_1.txt", "resources/input17_1.txt")) {
       Task17_1 task = new Task17_1();
-
       
       while (sc.hasNext()) {
         String s = sc.nextLine();

@@ -4,7 +4,7 @@ import static java.lang.Math.*;
 
 class ProbeLauncher {
   private final int x1, x2, y1, y2;
-  private final int h, w;
+  private final int h;
   
   public ProbeLauncher(Input input) {
     x1 = input.getX1();
@@ -12,7 +12,6 @@ class ProbeLauncher {
     y1 = input.getY1();
     y2 = input.getY2();
     h = y2 - y1;
-    w = x2 - x1;
   }
   
   public static class HighestYResult {
@@ -42,10 +41,13 @@ class ProbeLauncher {
     }
   }
   
-  private int distinct;
+  private int distinct; // gets reevaluated every time findHighestY() is called
 
-  // min(-2h, y1) <= vy0 <= max(2h, y2)
-  // vx0 <= x2
+  /**
+   * (Task 1) Finds the highest Y that can be reached within an allowed set of initial (vx, vy).
+   * 
+   * @return result object
+   */
   public HighestYResult findHighestY() {
     HighestYResult res = new HighestYResult(Integer.MIN_VALUE, Integer.MIN_VALUE, Integer.MIN_VALUE);
     int distinct = 0;
@@ -69,7 +71,12 @@ class ProbeLauncher {
     return res;
   }
   
-  
+  /**
+   * (Task 2) Returns the number of distinct valid pairs (vx, vy). Call to {@link #findHighestY()} is required first.
+   * 
+   * @return how many distinct combinations of (vx, vy) eventually lend the probe in target
+   * @see #findHighestY
+   */
   public int getDistinct() {
     return distinct;
   }
@@ -79,8 +86,6 @@ class ProbeLauncher {
   }
   
   private int evalHeight(int vx, int vy) {
-    int vx0 = vx;
-    int vy0 = vy;
     int highestY = Integer.MIN_VALUE;
 
     int x = 0;
