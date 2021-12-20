@@ -51,6 +51,8 @@ public class Task14 {
                 produced.add(polymer.get(sym));
                 if(median != null) {
                     produced.add(median);
+                } else {
+                    System.out.println("no such rule:"+polymer.get(sym)+polymer.get(sym+1));
                 }
             }
             produced.add(polymer.get(polymer.size()-1));
