@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="task 18">
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="Kotlin updated to 1.6">
       <change afterPath="$PROJECT_DIR$/adventOfCode-2021/resources/input19.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P19.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/util/src/org/korifey/kalgo/geom/V3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/adventOfCode-2021/adventOfCode-2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gcj/gcj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gcj/gcj.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-reflect.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rcc/rcc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rcc/rcc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -392,6 +383,8 @@
       <workItem from="1639685553693" duration="3925000" />
       <workItem from="1639924707019" duration="11616000" />
       <workItem from="1639938136674" duration="1137000" />
+      <workItem from="1639939306720" duration="11443000" />
+      <workItem from="1640192022169" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="codeforces347div2">
       <created>1461407866292</created>
@@ -554,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639935739494</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Kotlin updated to 1.6">
+      <created>1639939510260</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1639939510260</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -613,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="codeforces 349 div2" />
     <MESSAGE value="codeforces 352 div2" />
     <MESSAGE value="++" />
     <MESSAGE value="kotlin update + unfinished D task in codeforces 352-2" />
@@ -638,7 +637,8 @@
     <MESSAGE value="task 8 formatted" />
     <MESSAGE value="task 15 formatted" />
     <MESSAGE value="task 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 18" />
+    <MESSAGE value="Kotlin updated to 1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kotlin updated to 1.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -738,6 +738,8 @@
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="nodes" language="kotlin" />
+        <watch expression="v2.toAnotherBasis(basis)" language="kotlin" />
+        <watch expression="p1.beaconsInOriginalBasis.contains(v2-o)" language="kotlin" />
       </configuration>
       <configuration name="Application">
         <watch expression="to(s.charAt(i), s.charAt(i+1))" language="JAVA" custom="" />
