@@ -13,6 +13,8 @@ data class V3I(val x: Int, val y: Int, val z: Int) {
         x * originalBasicInAnotherBasis.ox +
         y * originalBasicInAnotherBasis.oy +
         z * originalBasicInAnotherBasis.oz
+
+    override fun toString(): String = "($x,$y,$z)"
 }
 
 operator fun V3I.plus(o: V3I) = V3I(x + o.x, y + o.y, z + o.z)
@@ -34,6 +36,9 @@ data class BasisV3I(val ox: V3I, val oy: V3I, val oz: V3I) {
     companion object {
         val default = BasisV3I(V3I.OX, V3I.OY, V3I.OZ)
     }
+
+    override fun toString(): String = "[$ox : $oy : $oz]"
 }
 
 fun V3I.normmax() = maxOf(abs(x), abs(y), abs(z))
+fun V3I.normManhatten() = abs(x) + abs(y) + abs(z)
