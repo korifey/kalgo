@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="P19 incorrect">
+    <list default="true" id="1d0a9cd4-ffd4-4259-b4fd-b342e40a9510" name="Default" comment="P19 done">
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/resources/input20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P20.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/huawei/A.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/huawei/B.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/src/org/korifey/kalgo/codeforces/huawei/C.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adventOfCode-2021/src/P19.kt" beforeDir="false" afterPath="$PROJECT_DIR$/adventOfCode-2021/src/P19.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/org/korifey/kalgo/geom/V3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/org/korifey/kalgo/geom/V3.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,10 +117,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\kalgo\adventOfCode-2021\resources" />
-      <recent name="C:\work\kalgo\util\src\org\korifey\kalgo\geom" />
       <recent name="C:\work\kalgo\adventOfCode-2021\src" />
+      <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces\huawei" />
+      <recent name="C:\work\kalgo\util\src\org\korifey\kalgo\geom" />
       <recent name="C:\work\kalgo\adventOfCode-2021\src\p18" />
-      <recent name="C:\work\kalgo\codeforces\src\org\korifey\kalgo\codeforces\kotlinheroes8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\work\kalgo" />
@@ -134,14 +137,14 @@
       <recent name="org.korifey.kalgo.geom.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.korifey.kalgo.codeforces.huawei" />
       <recent name="task4" />
       <recent name="task3" />
       <recent name="task2" />
       <recent name="org.korifey.kalgo.codeforces.round349div2" />
-      <recent name="org.korifey.kalgo.rcc.y2016.warmup" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.P19Kt">
+  <component name="RunManager" selected="Kotlin.P20Kt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -231,6 +234,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.korifey.kalgo.codeforces.huawei.A" />
+      <module name="codeforces" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.korifey.kalgo.codeforces.huawei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -254,36 +271,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P15xKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P15xKt" />
-      <module name="adventOfCode-2021" />
+    <configuration name="AKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.korifey.kalgo.codeforces.huawei.AKt" />
+      <module name="codeforces" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P18Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p18.P18Kt" />
-      <module name="adventOfCode-2021" />
+    <configuration name="BKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.korifey.kalgo.codeforces.huawei.BKt" />
+      <module name="codeforces" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P18Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="P18Kt" />
-      <module name="adventOfCode-2021" />
+    <configuration name="CKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.korifey.kalgo.codeforces.huawei.CKt" />
+      <module name="codeforces" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P18xKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p18.P18xKt" />
-      <module name="adventOfCode-2021" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P19Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="p19.P19Kt" />
+    <configuration name="P20Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p20.P20Kt" />
       <module name="adventOfCode-2021" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -323,19 +333,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Kotlin.P15xKt" />
-      <item itemvalue="Kotlin.P18Kt" />
-      <item itemvalue="Kotlin.P18Kt (1)" />
-      <item itemvalue="Kotlin.P18xKt" />
-      <item itemvalue="Kotlin.P19Kt" />
+      <item itemvalue="Application.A" />
+      <item itemvalue="Kotlin.AKt" />
+      <item itemvalue="Kotlin.BKt" />
+      <item itemvalue="Kotlin.CKt" />
+      <item itemvalue="Kotlin.P20Kt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.P19Kt" />
-        <item itemvalue="Kotlin.P18Kt (1)" />
-        <item itemvalue="Kotlin.P18xKt" />
-        <item itemvalue="Kotlin.P18Kt" />
-        <item itemvalue="Kotlin.P15xKt" />
+        <item itemvalue="Kotlin.P20Kt" />
+        <item itemvalue="Kotlin.CKt" />
+        <item itemvalue="Kotlin.BKt" />
+        <item itemvalue="Kotlin.AKt" />
+        <item itemvalue="Application.A" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +393,8 @@
       <workItem from="1639924707019" duration="11616000" />
       <workItem from="1639938136674" duration="1137000" />
       <workItem from="1639939306720" duration="11443000" />
-      <workItem from="1640192022169" duration="9553000" />
+      <workItem from="1640192022169" duration="9708000" />
+      <workItem from="1640265852493" duration="11734000" />
     </task>
     <task id="LOCAL-00001" summary="codeforces347div2">
       <created>1461407866292</created>
@@ -567,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640208780563</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="P19 done">
+      <created>1640218056786</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1640218056786</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -626,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="++" />
     <MESSAGE value="kotlin update + unfinished D task in codeforces 352-2" />
     <MESSAGE value="codeforces 354-2" />
     <MESSAGE value="edu16" />
@@ -651,7 +668,8 @@
     <MESSAGE value="task 18" />
     <MESSAGE value="Kotlin updated to 1.6" />
     <MESSAGE value="P19 incorrect" />
-    <option name="LAST_COMMIT_MESSAGE" value="P19 incorrect" />
+    <MESSAGE value="P19 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="P19 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
