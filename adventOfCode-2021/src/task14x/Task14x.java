@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
+// 2265039461735 - неверный результат
+
 class Rule {
     public char first;
     public char second;
@@ -24,15 +26,16 @@ class Rule {
 
 public class Task14x {
     ArrayList<Rule> rules = new ArrayList<>();
+    String dataFileName = "adventOfCode-2021/resources/input14x.txt";
     public Task14x() throws Exception {
-
-        String dataFileName = "adventOfCode-2021/resources/input14test.txt";
 
         // + parse input data
         ArrayList<Character> polymer = new ArrayList<>();
         BufferedReader inp = new BufferedReader(new FileReader(dataFileName));
         for(String symbol:inp.readLine().trim().split(""))
             polymer.add(symbol.charAt(0));
+        System.out.println("polymer: "+polymer);
+
         inp.readLine();
         String s;
 
@@ -45,6 +48,15 @@ public class Task14x {
                     ,triada[2].trim().charAt(0)
                     )
             );
+        }
+        for(int i=0; i<rules.size(); i++) {
+            Rule curr = rules.get(i);
+            for(int k=i+1; k<rules.size(); k++) {
+                if(rules.get(k).first == curr.first && rules.get(k).second == curr.second) {
+                    System.out.println("duplicate rules! "+i+","+k);
+                    System.exit(1);
+                }
+            }
         }
         // - parsing input data done
 
@@ -67,6 +79,7 @@ public class Task14x {
                 Rule r = matchingRule(res20.get(sym1), res20.get(sym1+1));
                 ArrayList<Character> res202 = r.chain20;
                 Set<Character> set  = r.hashMap.keySet();
+                // System.out.println("sym1:"+sym1+"; set size:"+set.size());
                 for(Character c:set) {
                     long stat = r.hashMap.get(c);
                     if(symbolsquantity.get(c) != null) {
@@ -77,15 +90,21 @@ public class Task14x {
                 }
                 if(sym1 != 0) {
                     char c = res202.get(0);
-                    symbolsquantity.put(c, symbolsquantity.get(c) - 1);
+                    symbolsquantity.put(c, symbolsquantity.get(c) - 1L);
                 }
 //                if(sym1%10000 == 0) System.out.println("sym1:"+sym1+" res20:"+res20.size());
             }
+            if(sym != 0) {
+                char c = polymer.get(sym+1);
+                symbolsquantity.put(c, symbolsquantity.get(c) - 1L);
+            }
+
             System.out.println("sym:"+sym+" total:"+polymer.size());
         }
 
         Set<Character> set = symbolsquantity.keySet();
-        long min=Long.MAX_VALUE, max=Long.MIN_VALUE;
+        long min=Long.MAX_VALUE;
+        long max=Long.MIN_VALUE;
         for(Character c:set) {
             if(symbolsquantity.get(c) < min)
                 min = symbolsquantity.get(c);
@@ -97,7 +116,7 @@ public class Task14x {
 
         System.out.println(max+"-"+min);
 
-        System.out.println(max - min);
+        System.out.println( (long)(max - min) );
     }
 
     void fillRules() {
@@ -114,6 +133,7 @@ public class Task14x {
                         produced.add(median);
                     } else {
                         System.out.println("no rule for: "+polymer.get(sym)+polymer.get(sym+1));
+                        System.exit(1);
                     }
                 }
                 produced.add(polymer.get(polymer.size()-1));
