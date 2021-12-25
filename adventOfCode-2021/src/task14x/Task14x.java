@@ -26,7 +26,7 @@ class Rule {
 
 public class Task14x {
     ArrayList<Rule> rules = new ArrayList<>();
-    String dataFileName = "adventOfCode-2021/resources/input14x.txt";
+    String dataFileName = "adventOfCode-2021/resources/input14test.txt";
     public Task14x() throws Exception {
 
         // + parse input data
