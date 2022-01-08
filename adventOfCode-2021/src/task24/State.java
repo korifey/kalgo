@@ -12,6 +12,13 @@ class State {
     this.digits = digits;
   }
   
+  public State(long w, long x, long y, long z) {
+    this.w = w;
+    this.x = x;
+    this.y = y;
+    this.z = z;
+  }
+  
   public long getAndSet(Variable v, long value) {
     long res;
     switch (v) {

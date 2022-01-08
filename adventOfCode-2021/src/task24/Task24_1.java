@@ -2,6 +2,8 @@ package task24;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Task24_1 {
@@ -23,13 +25,15 @@ public class Task24_1 {
         createScanner("adventOfCode-2021/resources/input24_1.txt", "resources/input24_1.txt")) {
 
       Task24_1 task = new Task24_1();
-      Monad monad = new Monad();
+      
+      List<Instruction> ins_list = new ArrayList<Instruction>();
       while (sc.hasNext()) {
-        monad.add(Parser.parseInput(sc.nextLine()));
+        ins_list.add(Parser.parseInput(sc.nextLine()));
       }
       
-      monad.print();
-      monad.findHighest();
+      Monad monad = new Monad(ins_list);
+      monad.printInstructions();
+      System.out.printf("OUTPUT: %d%n", monad.findHighest());
     }
   }
 

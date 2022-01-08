@@ -15,7 +15,7 @@ class Div extends Instruction {
 
   private long validateB(long value) {
     if (value == 0)
-      throw new IllegalArgumentException("div a b: b=0");
+      throw new IllegalAluOperandsException("div a b: b=0");
     
     return value;
   }

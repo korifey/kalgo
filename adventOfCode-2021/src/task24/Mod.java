@@ -15,14 +15,14 @@ class Mod extends Instruction {
 
   private long validateA(long value) {
     if (value < 0)
-      throw new IllegalArgumentException("mod a b: a<0");
+      throw new IllegalAluOperandsException("mod a b: a<0");
     
     return value;
   }
   
   private long validateB(long value) {
     if (value <= 0)
-      throw new IllegalArgumentException("mod a b: b<=0");
+      throw new IllegalAluOperandsException("mod a b: b<=0");
     
     return value;
   }

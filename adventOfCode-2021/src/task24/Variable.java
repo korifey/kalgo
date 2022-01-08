@@ -1,6 +1,6 @@
 package task24;
 
-public enum Variable {
+enum Variable {
   w,
   x,
   y,
