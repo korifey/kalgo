@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Task24_1 {
+public class Task24_2 {
   private static final Scanner createScanner(String... fileNames) {
     for (String fileName : fileNames) {
       try {
@@ -24,7 +24,7 @@ public class Task24_1 {
     try (Scanner sc =
         createScanner("adventOfCode-2021/resources/input24_1.txt", "resources/input24_1.txt")) {
 
-      Task24_1 task = new Task24_1();
+      Task24_2 task = new Task24_2();
       
       List<Instruction> ins_list = new ArrayList<Instruction>();
       while (sc.hasNext()) {
@@ -33,11 +33,11 @@ public class Task24_1 {
       
       Monad monad = new Monad(ins_list);
       monad.printInstructions();
-      System.out.printf("OUTPUT: %d%n", monad.findHighest()); // correct answer for vitrums' input: 92969593497992
+      System.out.printf("OUTPUT: %d%n", monad.findLowest()); // correct answer for vitrums' input: 81514171161381
     }
   }
 
-  Task24_1() {}
+  Task24_2() {}
 
   private static void testExtractDigit() {
     State s = new State(12345678912345L);

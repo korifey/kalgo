@@ -1,11 +1,10 @@
 package task24;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Map.Entry;
+import java.util.stream.IntStream;
 
 class DpMonadSolver extends AbstractMonadSolver  {
   private List<List<Instruction>> sliceMonad() {
@@ -32,8 +31,7 @@ class DpMonadSolver extends AbstractMonadSolver  {
     newStates.putIfAbsent(newState, inputDigitsSoFar * 10 + w);
   }
   
-  @Override
-  public long findHighest() {
+  private long doFindBest(int[] digits) {
     LinkedHashMap<Point3d, Long> states = new LinkedHashMap<>();
     states.put(new Point3d(0, 0, 0), 0L);
     List<List<Instruction>> subs = sliceMonad();
@@ -43,12 +41,12 @@ class DpMonadSolver extends AbstractMonadSolver  {
       List<Instruction> sub = subs.get(dig_idx);
       LinkedHashMap<Point3d, Long> newStates = new LinkedHashMap<>();
       
-      for (int w = 9; w > 0; --w) {
+      for (int w_idx = 0; w_idx < 9; ++w_idx) {
         for (Entry<Point3d, Long> entry : states.entrySet()) {
           Point3d state = entry.getKey();
           long inputDigitsSoFar = entry.getValue();
           
-          runSubInstructionsAndEvalNewState(sub, newStates, state, inputDigitsSoFar, w);
+          runSubInstructionsAndEvalNewState(sub, newStates, state, inputDigitsSoFar, digits[w_idx]);
         }
       }
       
@@ -61,5 +59,15 @@ class DpMonadSolver extends AbstractMonadSolver  {
     }
     
     return Long.MIN_VALUE; // TODO:
+  }
+  
+  @Override
+  public long findHighest() {
+    return doFindBest(IntStream.rangeClosed(1, 9).map(i -> 10 - i).toArray());
+  }
+  
+  @Override
+  public long findLowest() {
+    return doFindBest(IntStream.rangeClosed(1, 9).toArray());
   }
 }

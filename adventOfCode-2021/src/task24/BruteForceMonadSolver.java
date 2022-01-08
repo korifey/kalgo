@@ -42,4 +42,9 @@ class BruteForceMonadSolver extends AbstractMonadSolver {
 
     return Long.MIN_VALUE; // stub
   }
+  
+  @Override
+  public long findLowest() {
+    return Long.MIN_VALUE;
+  }
 }

@@ -44,6 +44,10 @@ class Monad {
     return solver.findHighest();
   }
   
+  public long findLowest() {
+    return solver.findLowest();
+  }
+  
   public void printInstructions() {
     Monad.printInstructions(ins_list);
   }
