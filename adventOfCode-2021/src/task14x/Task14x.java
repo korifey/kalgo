@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
+
 // 2265039461735 - неверный результат
 
 class Rule {
