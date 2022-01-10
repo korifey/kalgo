@@ -19,7 +19,7 @@ public class Task16_2 {
   }
   
   public static void main(String[] args) {
-    try (Scanner sc = createScanner("adventOfCode-2021/resources/input16_1.txt", "resources/input16_1.txt")) {
+    try (Scanner sc = createScanner("adventOfCode-2021/resources/input16.txt", "resources/input16.txt")) {
       Task16_2 task = new Task16_2();
 
       

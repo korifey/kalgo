@@ -7,7 +7,7 @@ public class Task5x {
     static int field[][] = new int[1000][1000];
 
     public static void main(String[] args) throws Exception {
-        BufferedReader inp = new BufferedReader(new FileReader("adventOfCode-2021/resources/input5x.txt"));
+        BufferedReader inp = new BufferedReader(new FileReader("adventOfCode-2021/resources/input5.txt"));
         String s="";
         try {
             while ((s = inp.readLine()) != null) {

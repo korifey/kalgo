@@ -20,7 +20,7 @@ public class Task21_2 {
 
   public static void main(String[] args) {
     try (Scanner sc =
-        createScanner("adventOfCode-2021/resources/input21_1.txt", "resources/input21_1.txt")) {
+        createScanner("adventOfCode-2021/resources/input21.txt", "resources/input21.txt")) {
 
       Task21_2 task = new Task21_2();
       int pos1 = parsePosition(sc.nextLine());

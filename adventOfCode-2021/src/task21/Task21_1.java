@@ -22,7 +22,7 @@ public class Task21_1 {
 
   public static void main(String[] args) {
     try (Scanner sc =
-        createScanner("adventOfCode-2021/resources/input21_1.txt", "resources/input21_1.txt")) {
+        createScanner("adventOfCode-2021/resources/input21.txt", "resources/input21.txt")) {
       // testDiterministicDice();
       // System.out.println();
       // testSampleInput8Moves();

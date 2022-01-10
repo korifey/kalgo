@@ -22,7 +22,7 @@ public class Task6x {
         System.out.println("digits filled");
 
         long startTime = System.currentTimeMillis();
-        BufferedReader inp = new BufferedReader(new FileReader("adventOfCode-2021/resources/input6x.txt"));
+        BufferedReader inp = new BufferedReader(new FileReader("adventOfCode-2021/resources/input6.txt"));
         String s;
         s = inp.readLine();
         String[] sdata = s.split(",");

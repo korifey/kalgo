@@ -20,7 +20,7 @@ public class Task17_2 {
   }
   
   public static void main(String[] args) {
-    try (Scanner sc = createScanner("adventOfCode-2021/resources/input17_1.txt", "resources/input17_1.txt")) {
+    try (Scanner sc = createScanner("adventOfCode-2021/resources/input17.txt", "resources/input17.txt")) {
       Task17_2 task = new Task17_2();
       
       while (sc.hasNext()) {
